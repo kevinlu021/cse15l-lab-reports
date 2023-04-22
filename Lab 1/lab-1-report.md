@@ -37,3 +37,6 @@ Outputs of these sample commands can be seen here:
 &nbsp;  
 &nbsp;  
 ![Image](https://raw.githubusercontent.com/kevinlu021/cse15l-lab-reports/main/Lab%201/Images/Screenshot%202023-04-08%20at%209.44.36%20PM.png)
+&nbsp;  
+&nbsp;  
+
