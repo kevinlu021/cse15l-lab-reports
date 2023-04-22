@@ -25,13 +25,13 @@ The final result will look something like this:
 ## Trying Some Commands
 
 Here are some commands you can try on your remote server:
-* `cd`
-* `cd ~`
-* `pwd`
-* `ls -lat`
-* `ls <directory>`, where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other user
-* `cp`
-* `cat`
+* `cd` - Navigate between different directories or folders on your file system
+* `cd ~`-  Takes you to the home directory of the current user.
+* `pwd` -  Display the current working directory or folder that the user is located in within the computer's file system.
+* `ls -lat` - List the contents of the current directory. Includes hidden files and directories (starting with a dot). 
+* `ls <directory>`, where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other user - Will list the contents of that user's directory.
+* `cp`- Make a copy of a file or directory.
+* `cat` - Display the contents of a file on the terminal
 
 Outputs of these sample commands can be seen here:
 &nbsp;  
