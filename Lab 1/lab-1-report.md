@@ -39,4 +39,4 @@ Outputs of these sample commands can be seen here:
 ![Image](https://raw.githubusercontent.com/kevinlu021/cse15l-lab-reports/main/Lab%201/Images/Screenshot%202023-04-08%20at%209.44.36%20PM.png)
 &nbsp;  
 &nbsp;  
-
+We start off by changing to the home directory from the home directory, so effectively nothing happens. Then, we print the working directory that we are in, which shows the absolute path of the home directory. After typing in `ls -lat` we see a list of hidden files that include the name, date and time of creation, and the read write execute permissions for each of the individual files. However, `ls` shows a list of the public files and directories. We can use `ls` on a directory we aren't currently in by adding the directory afterwards. In this case we chose the linux folder. We can also copy files and folders in directories into other directories with the `cp` command. If we want to see the specific contents of a single file, we can use the `cat` command as shown.
