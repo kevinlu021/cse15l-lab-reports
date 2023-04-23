@@ -54,3 +54,4 @@ class SearchEngine {
     }
 }
 ```
+# How the website works
