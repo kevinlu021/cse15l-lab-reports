@@ -56,4 +56,6 @@ class SearchEngine {
 ```
 # How the website works
 ![Image](Images/firstAdd.png)
+&nbsp;
+&nbsp;
 ![Image](Images/secondAdd.png)
