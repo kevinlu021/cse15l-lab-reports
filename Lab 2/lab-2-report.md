@@ -55,4 +55,4 @@ class SearchEngine {
 }
 ```
 # How the website works
-!Image[firstAdd](Images/firstAdd.png)
+![Image](Images/firstAdd.png)
