@@ -55,4 +55,4 @@ class SearchEngine {
 }
 ```
 # How the website works
-!Image[firstAdd](Images/Screenshot 2023-04-22 at 5.59.21 PM.png)
+!Image[firstAdd](Images/firstAdd.png)
