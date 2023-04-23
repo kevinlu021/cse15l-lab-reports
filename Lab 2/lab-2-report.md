@@ -1,5 +1,5 @@
-#Lab Report 2 - Servers and Bugs
-##Server - Search Engine
+# Lab Report 2 - Servers and Bugs
+## Server - Search Engine
 To make a web server that can display and take in input strings via query in the URL, the code will look something like this:
 ```
 import java.io.IOException;
