@@ -75,3 +75,4 @@ Here is an example of a faulty reverse array method:
 ```
 &nbsp;  
 &nbsp;  
+d
