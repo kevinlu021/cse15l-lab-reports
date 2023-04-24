@@ -56,7 +56,8 @@ class SearchEngine {
 ```
 # How the website works
 ![Image](Images/firstAdd.png)
-The main method sets up the web server on the desired port, in this case 6969. In the `Handler` class, `HandleRequest` is run which tests the validity of the URL that is passed in. Therefore, the URL in String form is a necessary parameter, and our String `list` is relevant because the value of it will be displayed on the server. If a valid add-message URL is passed in, `list` will be updated by having the query message added on to its current value. In this case, `list` was an empty string and `Hi there!` was added onto it. 
+The main method sets up the web server on the desired port, in this case 6969. In the `Handler` class, `HandleRequest` is run which tests the validity of the URL that is passed in. Therefore, the URL in String form is a necessary parameter, and our String `list` is relevant because the value of it will be displayed on the server. If a valid add-message URL is passed in, `list` will be updated by having the query message added on to its current value. In this case, `list` was an empty string and `"Hi there!"` was added onto it. 
 &nbsp;  
 &nbsp;  
 ![Image](Images/secondAdd.png)
+Like the previous image, the main method sets up the web server on the desired port, in this case 6969. In the `Handler` class, `HandleRequest` is run which tests the validity of the URL that is passed in. Therefore, the URL in String form is a necessary parameter, and our String `list` is relevant because the value of it will be displayed on the server. If a valid add-message URL is passed in, `list` will be updated by having the query message added on to its current value. In this case, `list` had the value `"Hi there!"` and `"I am in CSE15L"` was added onto it. 
