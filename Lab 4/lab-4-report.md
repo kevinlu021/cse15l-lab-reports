@@ -58,6 +58,9 @@ Keystrokes:
 - `committed` enter any message of your choosing, besides an empty one.
 - `<esc>` Return to normal mode.
 - `:wq` Save and quit the editor.
-- `git push 
+- `git push git@github.com:kevinlu021/lab7.git` Pushes changes to ssh link.
 
+![Step 9](./Images/step9_3.png)
+
+Our changes were successful!
 
