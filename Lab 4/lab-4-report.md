@@ -23,6 +23,7 @@ Keystrokes:
 - `ls` Check to make sure the `lab 7` repository was successfully cloned
 - `javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` This command compiles all the Java files in the current directory while including the Hamcrest and JUnit libraries in the classpath
 - `java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` Run the tester file ListExamplesTests.java
+- One test does indeed fail.
 
 ## 7. Edit the code file to fix the failing test
 
@@ -36,5 +37,14 @@ Keystrokes:
 - `<right><backspace><2>` Move cursor after the "1" in "index1", delete it, and replace with "2"
 - `<esc>` Return to normal mode.
 - `:wq` Save and quit the editor.
+
+## 8. Run the tests, demonstrating that they now succeed
+
+![Step 8](./Images/step8.png)
+Keystrokes:
+- `ls` Check to make sure the `lab 7` repository was successfully cloned
+- `javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` This command compiles all the Java files in the current directory while including the Hamcrest and JUnit libraries in the classpath
+- `java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` Run the tester file ListExamplesTests.java
+- All tests pass now.
 
 
