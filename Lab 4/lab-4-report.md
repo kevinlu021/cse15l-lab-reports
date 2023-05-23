@@ -31,7 +31,7 @@ Keystrokes:
 
 Keystrokes:
 - `vim ListExamples.java` Open up `ListExamples.java` in the Vim editor
-- `Shift + g` Moves cursor to end of the file
+- `<shift + g>` Moves cursor to end of the file
 - `<k><k><k><k><k><k><e>` Move cursor up six lines to line with the error, then to the end of the next work, which in this case is "index1"
 - `i` Enter insert mode.
 - `<right><backspace><2>` Move cursor after the "1" in "index1", delete it, and replace with "2"
@@ -46,5 +46,18 @@ Keystrokes:
 - `javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java` This command compiles all the Java files in the current directory while including the Hamcrest and JUnit libraries in the classpath
 - `java -cp ".:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ListExamplesTests` Run the tester file ListExamplesTests.java
 - All tests pass now.
+
+## 9. Commit and push the resulting change to your Github account
+![Step 9](./Images/step9_1.png)
+![Step 9](./Images/step9_2.png)
+
+- `git add ListExamples.java` Tells git we want ListExamples.java to be in our next commit.
+- `git commit` Opens up vim editor to enter in our commit message.
+- `<shift + g>` Moves cursor to end of the file
+- `i` Enter insert mode.
+- `committed` enter any message of your choosing, besides an empty one.
+- `<esc>` Return to normal mode.
+- `:wq` Save and quit the editor.
+- `git push 
 
 
