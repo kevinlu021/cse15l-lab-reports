@@ -52,7 +52,17 @@ public class ArrayTests {
 ## Student Reponse
 
 > Wow thanks! I realized that there were actually two parts to my symptom! First of all, you were right about the `java` command. My file "ArrayTests.class" was not being searched for by my command, so I simply just removed the ".java" in my second commmand to fix it. Here's a pic:
-![firstSol](./Images/firstSol.png)
+![firstSol](./Images/firstSol.png) <br>
+> But then, I added in some more rigorous tests as you suggested, and it turns out they failed! So, that meant something was wrong with my reverseInPlace method. Here's what I mean:
+![secondErr](./Images/secondErr.png) <br>
+> Turns out I had some logic errors in my method. I needed to swap element i from n-1-i, where n is the length of the array. Also, I needed to loop only to the halfway mark in order to not reverse what I swapped originally. Once that was fixed, everything worked, as shown here:
+![secondSol](./Images/secondFix.png) <br>
+	
+	
+## Recap
+	
+To sum it all up, to replicate this error, you will need to clone the Lab 3 repository on GitHub and open it on your code editor of choice. I used it on my personal laptop, cloned with Github Desktop, and opened the code in VS Code. Use the javac command to compile everything, and then use the faulty java command to attempt to run the tests. By removing ".java" from the java command, it then works, but we're not finished. We have non-rigorous tests, and by writing a good one we can see our implementation of our method is flawed. By fixing the logic, and re-running the tests, we now have completely fixed the error. 
+
 	
 
 
