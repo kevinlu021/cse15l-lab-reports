@@ -10,7 +10,11 @@ What environment are you using (computer, operating system, web browser, termina
 
 Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 
-> 
+> Here is what my symptom looks like:
+
+![error](./Images/error.png)
+
+> Because `input1` is an array of size 1, reversing it should effectively do nothing — the output should be the same array. However, not only does my test fail when I `assertArrayEquals`, but it seems there is an IllegalArgumentException error.
 
 
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
