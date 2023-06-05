@@ -38,7 +38,7 @@ public class ArrayTests {
   }
   ```
   > And, as you can see in my previous screenshot, I ran the two following commands
-  > `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+  > `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`<br>
   > `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests.java`
 
 ## TA Response
@@ -49,5 +49,10 @@ public class ArrayTests {
 > Additionally, I would recommend running tests on more rigorous examples. If you're reversing an array, it would be a good idea to test a longer array, of length 2 or possibly greater, to see if the behavior still matches what you expect. You currently are only testing edge cases which is good, but not enough! 
 > Hope that helps ;)
   
+## Student Reponse
+
+> Wow thanks! I realized that there were actually two parts to my symptom! First of all, you were right about the `java` command. My file "ArrayTests.class" was not being searched for by my command, so I simply just removed the ".java" in my second commmand to fix it. Here's a pic:
+![firstSol](./Images/firstSol.png)
+	
 
 
