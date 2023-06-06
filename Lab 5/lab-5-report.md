@@ -64,5 +64,7 @@ public class ArrayTests {
 To sum it all up, to replicate this error, you will need to clone the Lab 3 repository on GitHub and open it on your code editor of choice. I used it on my personal laptop, cloned with Github Desktop, and opened the code in VS Code. Use the javac command to compile everything, and then use the faulty java command to attempt to run the tests. By removing ".java" from the java command, it then works, but we're not finished. We have non-rigorous tests, and by writing a good one we can see our implementation of our method is flawed. By fixing the logic, and re-running the tests, we now have completely fixed the error. 
 
 	
-
+## Reflection
+	
+I learned many new things during my lab sections, but one of the most interesting to me was the concept of the SSH. I've never really heard of the concept of being able to remotely connect to a shared server that could support the terminal commands I'd been using on my mac, much less make changes to the files and directories in there as well!
 
